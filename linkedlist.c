@@ -8,9 +8,11 @@ typedef struct linknd{
 	
 	struct linknd *next;
 	
-}linked_t;
+}linknd_t;
 
 
 
-linknd_t nd;
+//linknd_t nd;
+
+static linknd_t *list; //파일 내부에서만 사용할 전역 변수 
 
